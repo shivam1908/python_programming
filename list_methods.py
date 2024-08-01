@@ -38,11 +38,11 @@ print(f"value in the liST Are : {data.extend([5,5,5,6])}{data}")
 print(f"theno of occurences of 5 in list are : {data.count(5)}")
 
 #list.sort() to sort the list
-data.sort();
+data.sort(reverse=True);  # sort in descending order
 print(f"The sorted values of the list are: {data}")
 
 # to print the list element in reverse
-data= ["abcd",1234]
+
 print(data[::-1])  
 data.reverse()
 print(data)
