@@ -1,0 +1,2 @@
+This is the sample output file 
+This directory contain the program output files if any
