@@ -1,3 +1,4 @@
-This is a sample text file for reading
+Thhaha haha a sample text file for reading
 it using the python programming language.
-We will use open() function to read the file content and display it.
+We will use open() function to read the file content and dhahaplay it.
+Thhaha haha to to replace the text haha from thhaha file with new text in the replacement of haha
