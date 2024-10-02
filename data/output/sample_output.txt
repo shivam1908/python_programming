@@ -1,2 +1,5 @@
 This is the sample output file 
 This directory contain the program output files if any
+ This is new line appended to the end of previous data
+
+ This is new line appended to the end of previous data
