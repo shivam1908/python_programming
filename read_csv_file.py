@@ -1,8 +1,12 @@
 
 with open("data/fighters.csv") as file:
-    data = file.readlines()
-print(data)
+    data = file.readline()
+    print(data)
 
+print("--------------reading using for loop----------------------------")
+with open("data/fighters.csv") as file:
+    for line in file:
+        print(line, end  ='')
 
 
 from csv import reader
