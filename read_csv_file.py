@@ -28,7 +28,7 @@ print("--------------reading using for loop 2 ----------------------------")
 with open("data/fighters.csv") as file:
     while True:
         line = file.readline()
-        if not line:
+        if  not line :
             break
         print(line)
 
