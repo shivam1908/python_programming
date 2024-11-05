@@ -2,7 +2,7 @@ import requests
 
 url = "https://icanhazdadjoke.com/"
 
-response = requests.get("https://icanhazdadjoke.com/", headers = {"Accept" : "application/json"})
+response = requests.get(url, headers = {"Accept" : "application/json"})
 
 data = response.text # it will bring the json data in string format
 print(f"Type of the json data fetched is : {type(data)}")
