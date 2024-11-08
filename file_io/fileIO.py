@@ -1,4 +1,4 @@
-f = open("data/sample_data.txt")
+f = open("../data/sample_data.txt")
 print(f.read())
 
 f.seek(0)
