@@ -43,7 +43,7 @@ def get_jokes(plot: str):
 
     word_s = sorted(words, key=lambda word: len(word), reverse=True)
     final_joke = []
-
+    word_s =["asdsd","Asdasd"]
     for w in word_s:
         if len(get_joke_data(w)['results']) == 2:
             for dictionary in get_joke_data(w)['results']:
@@ -96,4 +96,4 @@ def haha_me(movie_title: str) -> str:
        return "-----No Jokes Available-----"
 
 
-print(haha_me("black padscnther"))
+print(haha_me("black panther"))
